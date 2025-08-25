@@ -1331,7 +1331,7 @@
                 content: "";
                 width: calc(32 / 16 * 1rem);
                 height: calc(4 / 16 * 1rem);
-                margin: calc(16 / 16 * 1rem) auto calc(24 / 16 * 1rem) 0;
+                margin: calc(16 / 16 * 1rem) 0 calc(24 / 16 * 1rem) auto;
                 background: var(--primary);
                 opacity: 1;
                 position: relative;
@@ -1386,7 +1386,6 @@
             font-size: calc(16 / 16 * 1rem);
             text-decoration: none;
             line-height: 1.5em;
-            text-align: left;
             color: var(--bodyTextColorWhite);
             display: inline-block;
 
@@ -1433,7 +1432,7 @@
 
         .cs-logo-group {
             /* pushes everything to the right of it as far as possible in a flexbox */
-            margin-right: auto;
+            margin-left: auto;
             width: auto;
             max-width: calc(305 / 16 * 1rem);
         }
